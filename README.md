@@ -24,14 +24,14 @@ This repository hosts a real-time stock prediction system that fetches financial
 
 #### Spark Model Training and Prediction
 1. **Train the Model**:
-   
-    Run the model_training.py script initially to train your model using historical data.
-2.**Start Data Production**:
-   
-    Execute producer.py to begin data collection and processing.
-3.**Run Predictions**:
-   
-    Use prediction.py to predict daily stock prices.
+   - Run the `model_training.py` script initially to train your model using historical data.
+
+2. **Start Data Production**:
+   - Execute `producer.py` to begin data collection and processing.
+
+3. **Run Predictions**:
+   - Use `prediction.py` to predict daily stock prices.
+
 
 #### Usage
 For short interval iterations, such as every 2 minutes, upgrade to a premium Alpha Vantage plan and adjust the sleep time in producer.py along with the necessary code adjustments for more frequent data fetching and processing. Ensure to train the model with more extensive data for better accuracy.
