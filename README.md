@@ -25,6 +25,7 @@ This repository hosts a real-time stock prediction system that fetches financial
 #### Spark Model Training and Prediction
 1. **Train the Model**:
    - Run the `model_training.py` script initially to train your model using historical data.
+   - - Alternatively, use Google Colab for training by opening and running the `Stock_prediction_on_spark.ipynb` notebook which is detailed and ready for execution.
 
 2. **Start Data Production**:
    - Execute `producer.py` to begin data collection and processing.
