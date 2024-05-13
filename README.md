@@ -23,11 +23,14 @@ This repository hosts a real-time stock prediction system that fetches financial
    bin/kafka-console-consumer.sh --topic alpha-vantage-data --from-beginning --bootstrap-server localhost:9092
 
 #### Spark Model Training and Prediction
-1.**Train the Model**: 
+1. **Train the Model**:
+   
     Run the model_training.py script initially to train your model using historical data.
-2.**Start Data Production**: 
+2.**Start Data Production**:
+   
     Execute producer.py to begin data collection and processing.
-3.**Run Predictions**: 
+3.**Run Predictions**:
+   
     Use prediction.py to predict daily stock prices.
 
 #### Usage
