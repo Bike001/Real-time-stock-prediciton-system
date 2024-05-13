@@ -1,5 +1,4 @@
-markdown
-Copy code
+
 # Real-time Stock Prediction System
 
 ## Description
