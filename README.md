@@ -33,6 +33,8 @@ This repository hosts a real-time stock prediction system that fetches financial
 2. **Run Predictions**:
    - Use `prediction.py` to predict daily stock prices.
    - <img width="789" alt="image" src="https://github.com/Bike001/Real-time-stock-prediciton-/assets/114451652/930fc415-a84a-4e89-9a51-11b9ea9318ca">
+   <img width="776" alt="image" src="https://github.com/Bike001/Real-time-stock-prediciton-/assets/114451652/debc100d-4fd6-4b90-b703-f8168a4cd206">
+
 
 3. **Start Data Production**:
    - Execute `producer.py` to begin data collection and processing.
