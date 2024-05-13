@@ -28,11 +28,15 @@ This repository hosts a real-time stock prediction system that fetches financial
    - Run the `model_training.py` script initially to train your model using historical data.
    - - Alternatively, use Google Colab for training by opening and running the `Stock_prediction_on_spark.ipynb` notebook which is detailed and ready for execution.
 
-2. **Start Data Production**:
-   - Execute `producer.py` to begin data collection and processing.
 
-3. **Run Predictions**:
+
+2. **Run Predictions**:
    - Use `prediction.py` to predict daily stock prices.
+   - <img width="789" alt="image" src="https://github.com/Bike001/Real-time-stock-prediciton-/assets/114451652/930fc415-a84a-4e89-9a51-11b9ea9318ca">
+
+3. **Start Data Production**:
+   - Execute `producer.py` to begin data collection and processing.
+   - <img width="793" alt="image" src="https://github.com/Bike001/Real-time-stock-prediciton-/assets/114451652/a2aa6fb6-2f5c-4a88-9d4d-e6d848c164a9">
 
 
 #### Usage
