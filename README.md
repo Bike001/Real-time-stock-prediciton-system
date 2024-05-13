@@ -19,6 +19,7 @@ This repository hosts a real-time stock prediction system that fetches financial
 3. **Create Kafka Topics**:
   - bin/kafka-topics.sh --create --topic social-media-data --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
   - bin/kafka-topics.sh --create --topic alpha-vantage-data --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1
+  - 
 4.**Verify Data Transmission**:
    - bin/kafka-console-consumer.sh --topic alpha-vantage-data --from-beginning --bootstrap-server localhost:9092
 
